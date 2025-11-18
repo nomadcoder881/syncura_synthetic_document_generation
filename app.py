@@ -411,7 +411,7 @@ class SyntheticDocEngine():
 		        images[i].save(tmp_path, 'PNG')
 		        self.pages.append(tmp_path)        
 		else:
-			self.pages.append(doc_path)
+			self.pages.append(self.doc_path)
 
 	def __init__(self, _doc_path=None, _fields_to_capture=None, _template_name=None, _template_type=None, _contains_photo=False):		
 		self.doc_path = _doc_path
@@ -472,7 +472,7 @@ class SyntheticDocEngine():
 					else:			
 						prompt = f"you are an expert in document processing and image analysis. first analyse this page and then generate a highly detailed template based on its content (extracting style and color). You must preserve the layout (using tables with invisible borders to define the layout), colours (background/foreground/elements defined by or commonly assocaited with the template type : {self.template_type}), styles and anonymised data. return as utf-8 html (which includes CSS within the html, css to include colors)."						
 						body = ""
-						html_resp = ask_gpt(prompt, body, page)						
+						html_resp = ask_gpt(prompt, body, "gpt-4o", page)						
 
 				prompt = "you are an expert in document processing and analysis. select only they keys from the provided fields_to_capture that apply to this specific page. you must return a JSON object with the format {\"keys\":[{\"key\":\"<string - name of key>\"}"
 				selected_kv_resp = ask_gpt(prompt, f"fields_to_capture : {[str(f.split('-')[0]).strip() for f in self.fields_to_capture]}\nhtml template : {html_resp}")
@@ -508,12 +508,12 @@ class SyntheticDocEngine():
 
 
 # example of how to initialise the engine
-synthetic_doc_eng = SyntheticDocEngine(None, None, "vetrinary-prescription", _template_type="vetrinary-prescription", _contains_photo=False)
-synthetic_doc_eng.load_templates()
-synthetic_doc_eng.list_templates()
-synthetic_doc_eng.set_template(2)
-synthetic_doc_eng.countries = ["Japan"]
-synthetic_doc_eng.generate_document_from_template(1)
+synthetic_doc_eng = SyntheticDocEngine("dsm.png", None, "dsm-test-results", _template_type="dsm-test-results", _contains_photo=False)
+# synthetic_doc_eng.load_templates()
+# synthetic_doc_eng.list_templates()
+# synthetic_doc_eng.set_template(1)
+# synthetic_doc_eng.countries = ["France"]
+# synthetic_doc_eng.generate_document_from_template(1)
 
 # generate a new template
-# synthetic_doc_eng.generate_template()
+synthetic_doc_eng.generate_template()

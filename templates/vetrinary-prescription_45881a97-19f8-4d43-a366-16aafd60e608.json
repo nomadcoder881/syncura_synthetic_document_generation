@@ -1,1 +1,87 @@
-{"id": "b4b3526d-d30f-49ad-854d-f760fc3fe4ad", "name": "vetrinary-prescription", "type": "vetrinary-prescription", "company_name": "PawsRx Pharmacy", "company_industry": "Veterinary Prescription Services", "number_pages": 0, "critical_fields_to_extract": ["Client Name", "Client Contact Information", "Pet Name", "Pet Species", "Pet Breed", "Pet Age", "Prescription Date", "Veterinarian Name", "Veterinarian License Number", "Medication Name", "Dosage", "Frequency", "Quantity Prescribed", "Refills", "Instructions", "Special Notes"], "page_templates": [{"id": "6b316e6e-545a-4404-95ad-bb262d900016", "page": 0, "html_template": "CjwhRE9DVFlQRSBodG1sPgo8aHRtbCBsYW5nPSJlbiI+CjxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgPHRpdGxlPlZldGVyaW5hcnkgUHJlc2NyaXB0aW9uPC90aXRsZT4KICAgIDxzdHlsZT4KICAgICAgICBib2R5IHsKICAgICAgICAgICAgZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOwogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjBmOGZmOwogICAgICAgICAgICBjb2xvcjogIzMzMzsKICAgICAgICAgICAgbWFyZ2luOiAwOwogICAgICAgICAgICBwYWRkaW5nOiAyMHB4OwogICAgICAgIH0KICAgICAgICAuaGVhZGVyIHsKICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgICAgICAgICBib3JkZXItYm90dG9tOiAycHggc29saWQgIzhhMmJlMjsKICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDEwcHg7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7CiAgICAgICAgfQogICAgICAgIGgxIHsKICAgICAgICAgICAgY29sb3I6ICM4YTJiZTI7CiAgICAgICAgfQogICAgICAgIGgzIHsKICAgICAgICAgICAgY29sb3I6ICM0YjAwODI7CiAgICAgICAgfQogICAgICAgIHRhYmxlIHsKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgICAgIG1hcmdpbjogMTBweCAwOwogICAgICAgICAgICBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOwogICAgICAgIH0KICAgICAgICB0aCwgdGQgewogICAgICAgICAgICBwYWRkaW5nOiA4cHg7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7CiAgICAgICAgfQogICAgICAgIHRoIHsKICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2U2ZTZmYTsKICAgICAgICAgICAgY29sb3I6ICM0YjAwODI7CiAgICAgICAgfQogICAgICAgIC5zZWN0aW9uLXRpdGxlIHsKICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzhhMmJlMjsKICAgICAgICAgICAgY29sb3I6IHdoaXRlOwogICAgICAgICAgICBwYWRkaW5nOiA1cHg7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHg7CiAgICAgICAgfQogICAgPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KICAgIDxkaXYgY2xhc3M9ImhlYWRlciI+CiAgICAgICAgPGgxPlZldGVyaW5hcnkgUHJlc2NyaXB0aW9uPC9oMT4KICAgICAgICA8aDM+WW91ciB0cnVzdGVkIHBldCBoZWFsdGhjYXJlIHBhcnRuZXI8L2gzPgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+Q2xpZW50IEluZm9ybWF0aW9uPC9kaXY+CiAgICA8dGFibGU+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGg+Q2xpZW50IE5hbWU8L3RoPgogICAgICAgICAgICA8dGQ+Sm9obiBEb2U8L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGg+Q2xpZW50IENvbnRhY3QgSW5mb3JtYXRpb248L3RoPgogICAgICAgICAgICA8dGQ+KDU1NSkgMTIzLTQ1Njc8L3RkPgogICAgICAgIDwvdHI+CiAgICA8L3RhYmxlPgoKICAgIDxkaXYgY2xhc3M9InNlY3Rpb24tdGl0bGUiPlBldCBJbmZvcm1hdGlvbjwvZGl2PgogICAgPHRhYmxlPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlBldCBOYW1lPC90aD4KICAgICAgICAgICAgPHRkPkJ1ZGR5PC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlBldCBTcGVjaWVzPC90aD4KICAgICAgICAgICAgPHRkPkRvZzwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aD5QZXQgQnJlZWQ8L3RoPgogICAgICAgICAgICA8dGQ+TGFicmFkb3IgUmV0cmlldmVyPC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlBldCBBZ2U8L3RoPgogICAgICAgICAgICA8dGQ+MyBZZWFyczwvdGQ+CiAgICAgICAgPC90cj4KICAgIDwvdGFibGU+CgogICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+UHJlc2NyaXB0aW9uIERldGFpbHM8L2Rpdj4KICAgIDx0YWJsZT4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aD5QcmVzY3JpcHRpb24gRGF0ZTwvdGg+CiAgICAgICAgICAgIDx0ZD5PY3RvYmVyIDEwLCAyMDIzPC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlZldGVyaW5hcmlhbiBOYW1lPC90aD4KICAgICAgICAgICAgPHRkPkRyLiBKYW5lIFNtaXRoPC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlZldGVyaW5hcmlhbiBMaWNlbnNlIE51bWJlcjwvdGg+CiAgICAgICAgICAgIDx0ZD5WRVQxMjM0NTY3ODk8L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGg+TWVkaWNhdGlvbiBOYW1lPC90aD4KICAgICAgICAgICAgPHRkPkRpcGhlbmh5ZHJhbWluZTwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aD5Eb3NhZ2U8L3RoPgogICAgICAgICAgICA8dGQ+MjUgbWc8L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGg+RnJlcXVlbmN5PC90aD4KICAgICAgICAgICAgPHRkPlR3aWNlIGEgZGF5PC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlF1YW50aXR5IFByZXNjcmliZWQ8L3RoPgogICAgICAgICAgICA8dGQ+MzAgdGFibGV0czwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aD5SZWZpbGxzPC90aD4KICAgICAgICAgICAgPHRkPjI8L3RkPgogICAgICAgIDwvdHI+CiAgICA8L3RhYmxlPgoKICAgIDxkaXYgY2xhc3M9InNlY3Rpb24tdGl0bGUiPkluc3RydWN0aW9uczwvZGl2PgogICAgPHRhYmxlPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRkPkFkbWluaXN0ZXIgd2l0aCBmb29kLiBNb25pdG9yIGZvciBhbnkgYWR2ZXJzZSByZWFjdGlvbnMuPC90ZD4KICAgICAgICA8L3RyPgogICAgPC90YWJsZT4KCiAgICA8ZGl2IGNsYXNzPSJzZWN0aW9uLXRpdGxlIj5TcGVjaWFsIE5vdGVzPC9kaXY+CiAgICA8dGFibGU+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQ+S2VlcCBvdXQgb2YgcmVhY2ggb2YgY2hpbGRyZW4uIFN0b3JlIGluIGEgY29vbCwgZHJ5IHBsYWNlLjwvdGQ+CiAgICAgICAgPC90cj4KICAgIDwvdGFibGU+CgogICAgPGZvb3RlciBzdHlsZT0ibWFyZ2luLXRvcDogMjBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+CiAgICAgICAgPHA+JmNvcHk7IDIwMjMgVmV0ZXJpbmFyeSBDbGluaWMgLSBBbGwgcmlnaHRzIHJlc2VydmVkPC9wPgogICAgPC9mb290ZXI+CjwvYm9keT4KPC9odG1sPgo=", "local_fields_to_generate": [], "fields_to_capture": {"keys": [{"key": "Client Name"}, {"key": "Client Contact Information"}, {"key": "Pet Name"}, {"key": "Pet Species"}, {"key": "Pet Breed"}, {"key": "Pet Age"}, {"key": "Prescription Date"}, {"key": "Veterinarian Name"}, {"key": "Veterinarian License Number"}, {"key": "Medication Name"}, {"key": "Dosage"}, {"key": "Frequency"}, {"key": "Quantity Prescribed"}, {"key": "Refills"}, {"key": "Instructions"}, {"key": "Special Notes"}]}}]}
+{
+    "id": "b4b3526d-d30f-49ad-854d-f760fc3fe4ad",
+    "name": "vetrinary-prescription",
+    "type": "vetrinary-prescription",
+    "company_name": "PawsRx Pharmacy",
+    "company_industry": "Veterinary Prescription Services",
+    "number_pages": 0,
+    "critical_fields_to_extract": [
+        "Client Name",
+        "Total Amount",
+        "Client Contact Information",
+        "Pet Name",
+        "Pet Species",
+        "Pet Breed",
+        "Pet Age",
+        "Prescription Date",
+        "Veterinarian Name",
+        "Veterinarian License Number",
+        "Medication Name",
+        "Dosage",
+        "Frequency",
+        "Quantity Prescribed",
+        "Refills",
+        "Instructions",
+        "Special Notes"
+    ],
+    "page_templates": [
+        {
+            "id": "6b316e6e-545a-4404-95ad-bb262d900016",
+            "page": 0,
+            "html_template": "CjwhRE9DVFlQRSBodG1sPgo8aHRtbCBsYW5nPSJlbiI+CjxoZWFkPgogICAgPG1ldGEgY2hhcnNldD0iVVRGLTgiPgogICAgPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgogICAgPHRpdGxlPlZldGVyaW5hcnkgUHJlc2NyaXB0aW9uPC90aXRsZT4KICAgIDxzdHlsZT4KICAgICAgICBib2R5IHsKICAgICAgICAgICAgZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmOwogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjBmOGZmOwogICAgICAgICAgICBjb2xvcjogIzMzMzsKICAgICAgICAgICAgbWFyZ2luOiAwOwogICAgICAgICAgICBwYWRkaW5nOiAyMHB4OwogICAgICAgIH0KICAgICAgICAuaGVhZGVyIHsKICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgICAgICAgICBib3JkZXItYm90dG9tOiAycHggc29saWQgIzhhMmJlMjsKICAgICAgICAgICAgcGFkZGluZy1ib3R0b206IDEwcHg7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7CiAgICAgICAgfQogICAgICAgIGgxIHsKICAgICAgICAgICAgY29sb3I6ICM4YTJiZTI7CiAgICAgICAgfQogICAgICAgIGgzIHsKICAgICAgICAgICAgY29sb3I6ICM0YjAwODI7CiAgICAgICAgfQogICAgICAgIHRhYmxlIHsKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgICAgIG1hcmdpbjogMTBweCAwOwogICAgICAgICAgICBib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlOwogICAgICAgIH0KICAgICAgICB0aCwgdGQgewogICAgICAgICAgICBwYWRkaW5nOiA4cHg7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGxlZnQ7CiAgICAgICAgfQogICAgICAgIHRoIHsKICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2U2ZTZmYTsKICAgICAgICAgICAgY29sb3I6ICM0YjAwODI7CiAgICAgICAgfQogICAgICAgIC5zZWN0aW9uLXRpdGxlIHsKICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzhhMmJlMjsKICAgICAgICAgICAgY29sb3I6IHdoaXRlOwogICAgICAgICAgICBwYWRkaW5nOiA1cHg7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDEwcHg7CiAgICAgICAgfQogICAgPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KICAgIDxkaXYgY2xhc3M9ImhlYWRlciI+CiAgICAgICAgPGgxPlZldGVyaW5hcnkgUHJlc2NyaXB0aW9uPC9oMT4KICAgICAgICA8aDM+WW91ciB0cnVzdGVkIHBldCBoZWFsdGhjYXJlIHBhcnRuZXI8L2gzPgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+Q2xpZW50IEluZm9ybWF0aW9uPC9kaXY+CiAgICA8dGFibGU+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGg+Q2xpZW50IE5hbWU8L3RoPgogICAgICAgICAgICA8dGQ+Sm9obiBEb2U8L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGg+Q2xpZW50IENvbnRhY3QgSW5mb3JtYXRpb248L3RoPgogICAgICAgICAgICA8dGQ+KDU1NSkgMTIzLTQ1Njc8L3RkPgogICAgICAgIDwvdHI+CiAgICA8L3RhYmxlPgoKICAgIDxkaXYgY2xhc3M9InNlY3Rpb24tdGl0bGUiPlBldCBJbmZvcm1hdGlvbjwvZGl2PgogICAgPHRhYmxlPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlBldCBOYW1lPC90aD4KICAgICAgICAgICAgPHRkPkJ1ZGR5PC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlBldCBTcGVjaWVzPC90aD4KICAgICAgICAgICAgPHRkPkRvZzwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aD5QZXQgQnJlZWQ8L3RoPgogICAgICAgICAgICA8dGQ+TGFicmFkb3IgUmV0cmlldmVyPC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlBldCBBZ2U8L3RoPgogICAgICAgICAgICA8dGQ+MyBZZWFyczwvdGQ+CiAgICAgICAgPC90cj4KICAgIDwvdGFibGU+CgogICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+UHJlc2NyaXB0aW9uIERldGFpbHM8L2Rpdj4KICAgIDx0YWJsZT4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aD5QcmVzY3JpcHRpb24gRGF0ZTwvdGg+CiAgICAgICAgICAgIDx0ZD5PY3RvYmVyIDEwLCAyMDIzPC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlZldGVyaW5hcmlhbiBOYW1lPC90aD4KICAgICAgICAgICAgPHRkPkRyLiBKYW5lIFNtaXRoPC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlZldGVyaW5hcmlhbiBMaWNlbnNlIE51bWJlcjwvdGg+CiAgICAgICAgICAgIDx0ZD5WRVQxMjM0NTY3ODk8L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGg+TWVkaWNhdGlvbiBOYW1lPC90aD4KICAgICAgICAgICAgPHRkPkRpcGhlbmh5ZHJhbWluZTwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aD5Eb3NhZ2U8L3RoPgogICAgICAgICAgICA8dGQ+MjUgbWc8L3RkPgogICAgICAgIDwvdHI+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGg+RnJlcXVlbmN5PC90aD4KICAgICAgICAgICAgPHRkPlR3aWNlIGEgZGF5PC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRoPlF1YW50aXR5IFByZXNjcmliZWQ8L3RoPgogICAgICAgICAgICA8dGQ+MzAgdGFibGV0czwvdGQ+CiAgICAgICAgPC90cj4KICAgICAgICA8dHI+CiAgICAgICAgICAgIDx0aD5SZWZpbGxzPC90aD4KICAgICAgICAgICAgPHRkPjI8L3RkPgogICAgICAgIDwvdHI+CiAgICA8L3RhYmxlPgoKICAgIDxkaXYgY2xhc3M9InNlY3Rpb24tdGl0bGUiPkluc3RydWN0aW9uczwvZGl2PgogICAgPHRhYmxlPgogICAgICAgIDx0cj4KICAgICAgICAgICAgPHRkPkFkbWluaXN0ZXIgd2l0aCBmb29kLiBNb25pdG9yIGZvciBhbnkgYWR2ZXJzZSByZWFjdGlvbnMuPC90ZD4KICAgICAgICA8L3RyPgogICAgPC90YWJsZT4KCiAgICA8ZGl2IGNsYXNzPSJzZWN0aW9uLXRpdGxlIj5TcGVjaWFsIE5vdGVzPC9kaXY+CiAgICA8dGFibGU+CiAgICAgICAgPHRyPgogICAgICAgICAgICA8dGQ+S2VlcCBvdXQgb2YgcmVhY2ggb2YgY2hpbGRyZW4uIFN0b3JlIGluIGEgY29vbCwgZHJ5IHBsYWNlLjwvdGQ+CiAgICAgICAgPC90cj4KICAgIDwvdGFibGU+CgogICAgPGZvb3RlciBzdHlsZT0ibWFyZ2luLXRvcDogMjBweDsgdGV4dC1hbGlnbjogY2VudGVyOyI+CiAgICAgICAgPHA+JmNvcHk7IDIwMjMgVmV0ZXJpbmFyeSBDbGluaWMgLSBBbGwgcmlnaHRzIHJlc2VydmVkPC9wPgogICAgPC9mb290ZXI+CjwvYm9keT4KPC9odG1sPgo=",
+            "local_fields_to_generate": [],
+            "fields_to_capture": {
+                "keys": [
+                    {
+                        "key": "Client Name"
+                    },
+                    {
+                        "key": "Client Contact Information"
+                    },
+                    {
+                        "key": "Pet Name"
+                    },
+                    {
+                        "key": "Pet Species"
+                    },
+                    {
+                        "key": "Pet Breed"
+                    },
+                    {
+                        "key": "Pet Age"
+                    },
+                    {
+                        "key": "Prescription Date"
+                    },
+                    {
+                        "key": "Veterinarian Name"
+                    },
+                    {
+                        "key": "Veterinarian License Number"
+                    },
+                    {
+                        "key": "Medication Name"
+                    },
+                    {
+                        "key": "Dosage"
+                    },
+                    {
+                        "key": "Frequency"
+                    },
+                    {
+                        "key": "Quantity Prescribed"
+                    },
+                    {
+                        "key": "Refills"
+                    },
+                    {
+                        "key": "Instructions"
+                    },
+                    {
+                        "key": "Special Notes"
+                    }
+                ]
+            }
+        }
+    ]
+}
